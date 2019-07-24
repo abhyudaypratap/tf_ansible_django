@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Terraform files
+*.terraform/
+terraform.tfvars
+terraform/terraform.tfstate*
+terraform/*.zip
+terraform/*.tf.json
